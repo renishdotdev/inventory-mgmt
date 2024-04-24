@@ -45,7 +45,7 @@ const Home = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Home</h1>
+      <h1 className="text-2xl font-bold mb-4">Home Inventory Management System</h1>
       <hr className="my-4" />
       <section className="flex flex-col md:flex-row gap-4 text-white">
         <div className="home-card bg-cyan-300">
@@ -63,7 +63,7 @@ const Home = () => {
             </div>
           </div>
           <div className="text-center font-bold bg-cyan-400 py-2">
-            <Link to="/categories">More info &rarr;</Link>
+            <Link to="/categories">Open</Link>
           </div>
         </div>
         <div className="home-card bg-teal-300">
@@ -81,7 +81,7 @@ const Home = () => {
             </div>
           </div>
           <div className="text-center font-bold bg-teal-500 py-2">
-            <Link to="/items">More info &rarr;</Link>
+            <Link to="/items">Open</Link>
           </div>
         </div>
       </section>

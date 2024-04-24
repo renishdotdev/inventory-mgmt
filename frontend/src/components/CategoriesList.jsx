@@ -40,7 +40,7 @@ const CategoriesList = () => {
               </p>
             </div>
             <div className="text-center font-bold bg-emerald-400 py-2">
-              <Link to={`/categories/${category.id}`}>More info &rarr;</Link>
+              <Link to={`/categories/${category.id}`}>Open</Link>
             </div>
             <div className="flex text-center">
               <button

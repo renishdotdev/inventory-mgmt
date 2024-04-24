@@ -60,7 +60,7 @@ const EditItemForm = ({ item, onCancel }) => {
         required
       />
       <label htmlFor="price" className="-mb-4 italic text-gray-500">
-        Price in USD
+        Price in INR
       </label>
       <input
         id="price"
@@ -69,7 +69,7 @@ const EditItemForm = ({ item, onCancel }) => {
         value={price}
         name="price"
         onChange={onChange}
-        placeholder="Price in USD"
+        placeholder="Price in INR"
         required
       />
       <button

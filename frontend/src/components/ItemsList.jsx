@@ -31,7 +31,7 @@ const ItemsList = ({ items }) => {
           >
             <div className="p-4">
               <h2 className="text-2xl font-bold">
-                {item.name} (${item.price})
+                {item.name} (₹{item.price})
               </h2>
               <p className="italic">{item.description}</p>
             </div>
